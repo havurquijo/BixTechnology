@@ -1,5 +1,7 @@
-[![Static Badge](https://img.shields.io/badge/BixTechnology%20Challange-blue?style=flat)](https://docs.google.com/document/d/1UXFxrIPrkJ8SiLIvvKET0z6PdcJNd1kqgj0io7_lYAM/edit)
-[![Static Badge](https://img.shields.io/badge/Deployed%20Machine-FC4646?style=flat)](http://link)
+[![Static Badge](https://img.shields.io/badge/BixTechnolog%20Challange-050A66?style=flat&logo=googledocs)](https://docs.google.com/document/d/1UXFxrIPrkJ8SiLIvvKET0z6PdcJNd1kqgj0io7_lYAM/edit)
+[![Static Badge](https://img.shields.io/badge/Deployed%20Machine-2D2828?style=flat&logo=amazonec2)](http://link)
+[![Static Badge](https://img.shields.io/badge/linkedin-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/hvurquijo/)
+
 
 
 # Introduction
