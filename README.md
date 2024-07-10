@@ -1,5 +1,5 @@
-![Static Badge](https://img.shields.io/badge/BixTechnology%20Challange-blue?style=flat)(https://docs.google.com/document/d/1UXFxrIPrkJ8SiLIvvKET0z6PdcJNd1kqgj0io7_lYAM/edit)
-![Static Badge](https://img.shields.io/badge/Deployed%20Machine-FC4646?style=flat)(http://link)
+[![Static Badge](https://img.shields.io/badge/BixTechnology%20Challange-blue?style=flat)](https://docs.google.com/document/d/1UXFxrIPrkJ8SiLIvvKET0z6PdcJNd1kqgj0io7_lYAM/edit)
+[![Static Badge](https://img.shields.io/badge/Deployed%20Machine-FC4646?style=flat)](http://link)
 
 
 # Introduction
