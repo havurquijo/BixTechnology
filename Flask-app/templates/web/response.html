@@ -1,0 +1,25 @@
+{% extends 'web/index.html' %}
+{% block page_title %}
+    Bixtecnologia prediction
+{% endblock page_title %}
+{% block alternative_h1 %}
+    <h1>Prediction result</h1>
+{% endblock alternative_h1 %}
+{% block alternative_p %}
+{% endblock alternative_p %}
+{% block alternative_body %} 
+<section>
+    <!--'ac_000', 'ag_006', 'ah_000', 'ay_006', 'ay_008', 'az_004',
+       'cd_000', 'cs_006', 'cv_000', 'du_000', 'eb_000'-->
+    <div class="mb-3">
+        <p for="response" style="padding-top: 5%;font-size: x-large;text-align: center;">Does the air system needs to be send to maintenance?</p>
+        {% if prediction == "pos" %}
+            <p style="text-align: center;color:rgb(188, 28, 28);font-size: 30pt;" id="response" >Must be send to maintenance!</p>              
+        {% elif prediction == "neg" %}
+            <p style="text-align: center;color:rgb(48, 15, 194);font-size: 30pt;" id="response">No need to send it to maintenance for now.</p>              
+        {% else %}
+            <p style="text-align: center;color:rgb(188, 28, 28)" id="response">Wrong response...</p>              
+        {% endif %}
+    </div>
+</section>   
+{% endblock  %}

@@ -1,0 +1,74 @@
+{% extends 'web/index.html' %}
+{% block page_title %}
+    Bixtecnologia prediction
+{% endblock page_title %}
+{% block alternative_h1 %}
+    <h1>Prediction form</h1>
+    <p  style="text-align: center;">Here you can make a prediction carefully filling this form and pressing `enter` or the submit button</p>
+{% endblock alternative_h1 %}
+{% block alternative_p %}
+{% endblock alternative_p %}
+{% block alternative_body %} 
+<section>
+    <!--'ac_000', 'ag_006', 'ah_000', 'ay_006', 'ay_008', 'az_004',
+       'cd_000', 'cs_006', 'cv_000', 'du_000', 'eb_000'-->
+    <form style="margin-left: 5%; margin-right: 5%; padding-left: 10%;padding-right: 10%;" method="POST">
+        <!--'ac_000'-->
+        <div class="mb-3">
+          <label for="ac_000" class="form-label">ac_000</label>
+          <input type="number" style="text-align: center;" class="form-control" name="ac_000" id="ac_000" aria-describedby="emailHelp" required>
+        </div>
+        <!--'ag_006'-->
+        <div class="mb-3">
+          <label for="ag_006" class="form-label">ag_006</label>
+          <input type="number" style="text-align: center;" class="form-control" name="ag_006" id="ag_006" required>
+        </div>
+        <!--'ah_000'-->
+        <div class="mb-3">
+            <label for="ah_000" class="form-label">ah_000</label>
+            <input type="number" style="text-align: center;" class="form-control" name="ah_000" id="ah_000" required>
+          </div>
+        <!--'ay_006'-->
+        <div class="mb-3">
+            <label for="ay_006" class="form-label">ay_006</label>
+            <input type="number" style="text-align: center;" class="form-control" name="ay_006" id="ay_006" aria-describedby="emailHelp" required>
+            </div>
+          <!--'ay_008'-->
+          <div class="mb-3">
+            <label for="ay_008" class="form-label">ay_008</label>
+            <input type="number" style="text-align: center;" class="form-control" name="ay_008" id="ay_008" required>
+          </div>
+          <!--'az_004'-->
+          <div class="mb-3">
+            <label for="az_004" class="form-label">az_004</label>
+            <input type="number" style="text-align: center;" class="form-control" name="az_004" id="az_004" required>
+          </div>
+          <!--'cd_000'-->
+          <div class="mb-3">
+            <label for="cd_000" class="form-label">cd_000</label>
+            <input type="number" style="text-align: center;" class="form-control" name="cd_000" id="cd_000" aria-describedby="emailHelp" required>
+            </div>
+          <!--'cs_006'-->
+          <div class="mb-3">
+            <label for="cs_006" class="form-label">cs_006</label>
+            <input type="number" style="text-align: center;" class="form-control" name="cs_006" id="cs_006" required>
+          </div>
+          <!--'cv_000'-->
+          <div class="mb-3">
+            <label for="cv_000" class="form-label">cv_000</label>
+            <input type="number" style="text-align: center;" class="form-control" name="cv_000" id="cv_000" required>
+          </div>
+          <!--'du_000'-->
+          <div class="mb-3">
+            <label for="du_000" class="form-label">du_000</label>
+            <input type="number" style="text-align: center;" class="form-control" name="du_000" id="du_000" aria-describedby="emailHelp" required>
+            </div>
+          <!--'eb_000'-->
+          <div class="mb-3">
+            <label for="eb_000" class="form-label" >eb_000</label>
+            <input type="number" style="text-align: center;" class="form-control" name="eb_000" id="eb_000" required>
+          </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+</section>   
+{% endblock  %}
