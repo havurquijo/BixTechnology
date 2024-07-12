@@ -13,7 +13,7 @@ current_directory = getcwd()
 # This function basically writes the html page
 @app.route("/")  # url for routing
 def homePage():
-    return render_template('web/index.html')
+    return render_template('web/predict.html')
 
 # API of prediction
 @app.route("/api/<json_var>")
