@@ -92,10 +92,10 @@ Based on this information, we can create a new class with two values `["send", "
 As the class to be predicted is binary we will certanly have a very useful confusion matrix.
 
 Based on the informations given by the client each component of the the confusion matrix will have a cost:
-- True negative $$(p_{--}) --> \text{costs \$}0$$
-- True positive $$(p_{++}) --> \text{costs \$}25$$
-- False positive $$(p_{-+})--> \text{costs \$}10$$
-- False negative $$(p_{+-})--> \text{costs \$}500$$
+- True negative $(p_{--})$ --> costs \$0
+- True positive $(p_{++})$ --> costs \$25
+- False positive $(p_{-+})$--> costs \$10
+- False negative $(p_{+-})$--> costs \$500
 
 So we need a machine learning model that minimize the function: $$f(p_{++},p_{-+},p_{+-}) = p_{++}\cdot25+p_{-+}\cdot10+p_{+-}\cdot500$$
 
